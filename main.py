@@ -6,8 +6,9 @@ print("Student:", student)
 
 
 class Animal:
-    def __init__(self, name, species):
+    def __init__(self, name,surname, species):
         self.name = name
+        seşf.surname =surname
         self.species = species
 
 
@@ -22,3 +23,5 @@ for i in range(5):
 print("\nAnimals:")
 for a in animals:
     print(a.name, "-", a.species)
+
+
